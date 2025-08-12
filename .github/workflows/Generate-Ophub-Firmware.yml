@@ -552,7 +552,7 @@ jobs:
               ;;
             "RK3399 King3399")
               TARGET_BUILD="king3399"
-              KERNEL="6.1.y"
+              KERNEL="6.6.99"
               echo "TARGET_BUILD=$TARGET_BUILD" >> $GITHUB_ENV
               echo "KERNEL=$KERNEL" >> $GITHUB_ENV
               ;;            
